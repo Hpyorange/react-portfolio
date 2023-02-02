@@ -7,7 +7,7 @@ export default function Home() {
     <div class="content">
       <div className='mb-5 text-center'>
         <h1 class="title">Hi, My name is <span>Jasper</span></h1>
-        <h4 class='spanColor'>Welcome to my portfolio site</h4>
+        <h5 class='spanColor'>Welcome to my coding portfolio site</h5>
       </div>
       <Sw />
     </div>
