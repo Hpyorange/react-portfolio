@@ -8,7 +8,7 @@ const Footer = () =>
 
     <div class="container p-4 pb-0">
 
-        <section class="mb-4">
+        <section>
 
         <a class="btn btn-floating m-1" href="#!"role="button">
             <FontAwesomeIcon icon={faLinkedinIn} />
@@ -23,7 +23,7 @@ const Footer = () =>
 
      </div>
 
-    <div class="text-center p-4">© 2023 Copyright:<a href="https://jaspercyz.com/">jaspercyz.com</a></div>
+    <div class="text-center">© 2023 Copyright:<a class="text-decoration-none" href="https://jaspercyz.com/"> jaspercyz.com</a></div>
 
 </footer>
 

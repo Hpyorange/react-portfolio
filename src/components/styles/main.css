@@ -1,17 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Varela+Round&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+	color: #06436f;
 }
 
 .background{
 	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../Images/b1.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .content{
-	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10%;
 }
 
-header{
-	height: 10%;
+.mybtn{
+    padding: 12px 18px;
+    background-color: #0d6efd;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.mybtn:hover{
+    background-color:#06436f;
+	color: #fff;
+}
+
+.title span{
+	font-size: 2.5rem;
+	color: #ce93ef;
+}
+
+#about .title span{
+	color: #DD7694;
+}
+
+.spanColor{
+	color: #DD7694;
+}
+
+.photo img{
+	height: 300px;
+	border-radius: 20px;
+}
+
+.aboutText{
+	margin: 0 50%;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+  
+	/* Center slide text vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .mybtn{
+        padding: 5px 10px;
+    }
 }
