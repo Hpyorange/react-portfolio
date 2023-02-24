@@ -42,39 +42,41 @@ export default function sw1() {
         </SwiperSlide>
 
         <SwiperSlide>
+        <a class='myCard text-decoration-none' href="https://timelapse1.herokuapp.com/">
+            <div class="img" id="p6"></div>
+            <div class="text">Project 2: timelapse</div>
+        </a>
+        </SwiperSlide>
+
+        <SwiperSlide>
         <a class='myCard text-decoration-none' href="https://github.com/Hpyorange/weatherDashboard">
             <div class="img" id="p2"></div>
-            <div class="text">Project 2: Weather Dashboard</div>
+            <div class="text">Project 3: Weather Dashboard</div>
         </a>
         </SwiperSlide>
 
         <SwiperSlide>
         <a class='myCard text-decoration-none' href="https://github.com/Hpyorange/JATE-Text-Editor">
             <div class="img" id="p3"></div>
-            <div class="text">Project 3: Text-Editor(J.A.T.E)</div>
+            <div class="text">Project 4: Text-Editor(J.A.T.E)</div>
         </a>
         </SwiperSlide>
 
         <SwiperSlide>
         <a class='myCard text-decoration-none' href="https://github.com/Hpyorange/CodeQuiz">
             <div class="img" id="p4"></div>
-            <div class="text">Project 4: Code Quiz</div>
+            <div class="text">Project 5: Code Quiz</div>
         </a>
         </SwiperSlide>
 
         <SwiperSlide>
         <a class='myCard text-decoration-none' href="https://github.com/Hpyorange/employeeTracker">
             <div class="img" id="p5"></div>
-            <div class="text">Project 5: Employee Tracker</div>
+            <div class="text">Project 6: Employee Tracker</div>
         </a>
         </SwiperSlide>
 
-        <SwiperSlide>
-        <a class='myCard text-decoration-none' href="https://jaspercyz.com">
-            <div class="img" id="p6"></div>
-            <div class="text">Project 6: my website</div>
-        </a>
-        </SwiperSlide>
+
 
 
       </Swiper>
